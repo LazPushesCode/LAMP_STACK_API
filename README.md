@@ -6,11 +6,11 @@ The application allows users to interact with the website using front-end techno
 It allows users to login and manage colors on a database.
 
 ## Technologies
-  Frontend: HTML, JavaScript, CSS
-  Backend: PHP
-  Database: MySQL
-  Server Stack: LAMP(Linux, apache, MySQL, PHP)
-  Version Control: Git, GitHub
+  - Frontend: HTML, JavaScript, CSS
+  - Backend: PHP
+  - Database: MySQL
+  - Server Stack: LAMP(Linux, apache, MySQL, PHP)
+  - Version Control: Git, GitHub
 
 ## Setup Instructions
 1. Clone this repository
@@ -27,3 +27,4 @@ It allows users to login and manage colors on a database.
   - The application assumes the user already has a LAMP environment set up.
   - User must manually insert logins directly into MySQL database.
   - ChatGPT used as guidance for command line prompts and file management.
+
