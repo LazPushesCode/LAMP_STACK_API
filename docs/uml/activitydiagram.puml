@@ -1,0 +1,17 @@
+@startuml
+start
+:Receive JSON (color, userId);
+:Connect to Database;
+
+if (Connection Error?) then (yes)
+  :Return Error;
+  stop
+else (no)
+  :Prepare INSERT INTO Colors;
+  :Bind Parameters (userId, color);
+  :Execute Statement;
+  :Return Success (Empty Error String);
+endif
+
+stop
+@enduml
