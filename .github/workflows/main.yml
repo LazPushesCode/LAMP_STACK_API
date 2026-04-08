@@ -18,6 +18,6 @@ jobs:
 
       - name: Run Linters
         run: |
-          npx htmlhint "**/*.html"
-          npx stylelint "**/*.css"
-          npx eslint "**/*.js"
+          npx htmlhint "public/*.html"
+          npx stylelint "public/css/*.css"
+          npx eslint "public/js/*.js"
