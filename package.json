@@ -1,0 +1,30 @@
+{
+  "name": "lamp_stack_api",
+  "version": "1.0.0",
+  "description": "The COLORS web application is a COP 4331C assignment part of our lab.\r The application allows users to interact with the website using front-end technologies.\r It allows users to login and manage colors on a database.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazPushesCode/LAMP_STACK_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LazPushesCode/LAMP_STACK_API/issues"
+  },
+  "homepage": "https://github.com/LazPushesCode/LAMP_STACK_API#readme",
+  "devDependencies": {
+    "eslint": "^10.2.0",
+    "htmlhint": "^1.9.2",
+    "stylelint": "^17.6.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
